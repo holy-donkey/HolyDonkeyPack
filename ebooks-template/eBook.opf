@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+<metadata>
+	<dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+		<dc:Title>EBWP_BOOK_TITLE</dc:Title>
+		<dc:Language>en</dc:Language>
+		<dc:Identifier id="uid">88888888</dc:Identifier>
+		<dc:Creator>EBWP_AUTHOR_NAME</dc:Creator>
+		<dc:Subject BASICCode="FIC009000">EBWP_BOOK_CATEGORY</dc:Subject>
+		<dc:Publisher>EBWP_PUBLISHER</dc:Publisher>
+	</dc-metadata>
+	<x-metadata>
+	</x-metadata>
+</metadata>
+<manifest>
+
+	<!-- EBWC_BEGIN_EMB_FONTS -->
+	<!-- EBWC_END_EMB_FONTS -->
+
+	<!-- EBWC_BEGIN_KINDLE_COVER_IMG -->
+	<item id="cover_image" media-type="image/jpeg" href="imgs/book_cover.jpg" properties="cover-image"/>
+	<!-- EBWC_END_KINDLE_COVER_IMG -->
+	
+	<!-- EBWC_BEGIN_BOOK_CSS -->
+	<item id="book_css" href="eBook.css" media-type="text/css"/>
+	<!-- EBWC_END_BOOK_CSS -->
+
+	<!-- EBWC_BEGIN_EPUB_NAVIGATION_DOCUMENT -->
+	<item id="toc" properties="nav" href="epub_nav_doc.html" media-type="application/xhtml+xml"/>
+	<!-- EBWC_END_EPUB_NAVIGATION_DOCUMENT -->
+
+	<!-- EBWC_BEGIN_FRONT_COVER -->
+	<item id="front_cover" media-type="text/x-oeb1-document" href="front_cover.html" />
+	<!-- EBWC_END_FRONT_COVER -->
+
+	<!-- EBWC_BEGIN_FRONT_MATTERS -->
+	<item id="front_matters" media-type="text/x-oeb1-document" href="front_matters.html" />
+	<!-- EBWC_END_FRONT_MATTERS -->
+
+	<!-- EBWC_BEGIN_BIOGRAPHY
+	<item id="biography" media-type="text/x-oeb1-document" href="biography.html" />
+	EBWC_END_BIOGRAPHY -->
+
+	<!-- EBWC_BEGIN_TABLE_OF_CONTENTS -->
+	<item id="table_of_contents" media-type="text/x-oeb1-document" href="table_of_contents.html" />
+	<!-- EBWC_END_TABLE_OF_CONTENTS -->
+
+	<!-- EBWC_BEGIN_ACKNOWLEDGEMENT
+	<item id="acknowledgement" media-type="text/x-oeb1-document" href="acknowledgement.html" />
+	EBWC_END_ACKNOWLEDGEMENT -->
+	
+	<!-- EBWC_BEGIN_INTRODUCTION -->
+	<item id="introduction" media-type="text/x-oeb1-document" href="introduction.html" />
+	<!-- EBWC_END_INTRODUCTION -->
+
+	<!-- EBWC_BEGIN_PROLOGUE
+	<item id="prologue" media-type="text/x-oeb1-document" href="prologue.html" />
+	EBWC_END_PROLOGUE -->
+
+	<!-- EBWC_BEGIN_BOOK_CONTENT_ITEMS -->
+	<item id="book_contents" media-type="text/x-oeb1-document" href="book_contents.html" />
+	<!-- EBWC_END_BOOK_CONTENT_ITEMS -->
+
+	<!-- EBWC_BEGIN_EPILOGUE
+	<item id="epilogue" media-type="text/x-oeb1-document" href="epilogue.html" />
+	EBWC_END_EPILOGUE -->
+
+	<!-- EBWC_BEGIN_INDEX
+	<item id="index" media-type="text/x-oeb1-document" href="index.html" />
+	EBWC_END_INDEX -->
+
+	<!-- EBWC_BEGIN_BACK_COVER -->
+	<item id="back_cover" media-type="text/x-oeb1-document" href="back_cover.html" />
+	<!-- EBWC_END_BACK_COVER -->
+</manifest>
+<spine>
+	<!-- EBWC_BEGIN_FRONT_COVER -->
+	<itemref idref="front_cover"/>
+	<!-- EBWC_END_FRONT_COVER -->
+
+	<!-- EBWC_BEGIN_FRONT_MATTERS -->
+	<itemref idref="front_matters" />
+	<!-- EBWC_END_FRONT_MATTERS -->
+	
+	<!-- EBWC_BEGIN_TABLE_OF_CONTENTS -->
+	<itemref idref="table_of_contents" />
+	<!-- EBWC_END_TABLE_OF_CONTENTS -->
+
+	<!-- EBWC_BEGIN_ACKNOWLEDGEMENT
+	<itemref idref="acknowledgement" />
+	EBWC_END_ACKNOWLEDGEMENT -->
+
+	<!-- EBWC_BEGIN_BIOGRAPHY
+	<itemref idref="biography" />
+	EBWC_END_BIOGRAPHY -->
+
+	<!-- EBWC_BEGIN_INTRODUCTION
+	<itemref idref="introduction" />
+	EBWC_END_INTRODUCTION -->
+
+	<!-- EBWC_BEGIN_PROLOGUE
+	<itemref idref="prologue" />
+	<!-- EBWC_END_PROLOGUE
+
+	<!-- EBWC_BEGIN_BOOK_CONTENT_ORDER -->
+	<itemref idref="book_contents" />
+	<!-- EBWC_END_BOOK_CONTENT_ORDER -->
+
+	<!-- EBWC_BEGIN_EPILOGUE
+	<itemref idref="epilogue" />
+	EBWC_END_EPILOGUE -->
+
+	<!-- EBWC_BEGIN_INDEX
+	<itemref idref="index" />
+	EBWC_END_INDEX -->
+
+	<!-- EBWC_BEGIN_BACK_COVER -->
+	<itemref idref="back_cover" />
+	<!-- EBWC_END_BACK_COVER -->
+</spine>
+<tours>
+</tours>
+<guide>
+</guide>
+</package>
